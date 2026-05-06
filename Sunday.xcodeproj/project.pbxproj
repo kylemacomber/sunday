@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02165B62D17564142BAE367B /* ManualExposureSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B1617CC2E2E7986198739 /* ManualExposureSheet.swift */; };
+		068877D989F5D3F8CF7F26B9 /* SundayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B1C0F075706A3D49F781C7 /* SundayWidget.swift */; };
+		0B1DDC8996AFDF9780811715 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3369925047C54EB9BEC34E87 /* NetworkMonitor.swift */; };
+		22AD712D5E9927E8FFC126D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405D5935898A3EDEF68FFF41 /* LaunchScreen.storyboard */; };
+		23B972EC4F33060C19004D56 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2143FB195151CFE455B0A /* LocationManager.swift */; };
+		24C7496CF64FB8B7624D676B /* SundayWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 046D8BF70DC496745A1146E8 /* SundayWidget.intentdefinition */; };
+		268FFB83C38F705B5ACAD94C /* SessionCompletionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EB6D61E3E97ADBDD049955 /* SessionCompletionSheet.swift */; };
+		27AF620081023D7DFAB5B83F /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A673F21A5352A14FE089CBD /* HealthManager.swift */; };
+		2CACC96C6448D3F9808550B4 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2611886B0F63CE941D04446 /* Logging.swift */; };
+		2F2804D4E5AF54E7C042AA16 /* VitaminDCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56EA0097812F2E7F1AE1A2B /* VitaminDCalculator.swift */; };
+		3ECF4CB01C7159172BC37257 /* UVService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26150440802FFB7DC850F89 /* UVService.swift */; };
+		53594626A7F108C0D0476A9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E60B9C44049AD9F2F94B71 /* Extensions.swift */; };
+		5D54C9DDD7D1F80F30FD96BB /* SundayWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB5954BFFC29A021FFCE93B0 /* SundayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6214279C6C167F982E3D03C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF00F4288666996E217323C /* Assets.xcassets */; };
+		7F2BF92718B045033BC91F13 /* SundayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61883CC89B9B193E678440A6 /* SundayApp.swift */; };
+		88D8039F5748ED946EFA2817 /* SunscreenPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0639AA6BD39B5AA07843E5B /* SunscreenPicker.swift */; };
+		BDC919290C791BF6328D7CFF /* MigrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750BB55BB23C11EE9380811 /* MigrationService.swift */; };
+		C26162674D160AD4100BB0A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D0E33B2B399C8F6D617EE2 /* ContentView.swift */; };
+		F86D9967FF27FAFE1C5D5F91 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B8EAE15371B79D847AB450 /* DataModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4193ED8CB3EE96ABC140932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2C410BBEA87495BE6FADA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E7E54B788F6B974030A345;
+			remoteInfo = SundayWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C889C4D62F75382032E9F8B0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D54C9DDD7D1F80F30FD96BB /* SundayWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		046D8BF70DC496745A1146E8 /* SundayWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SundayWidget.intentdefinition; sourceTree = "<group>"; };
+		1A673F21A5352A14FE089CBD /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		3369925047C54EB9BEC34E87 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		401B1617CC2E2E7986198739 /* ManualExposureSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualExposureSheet.swift; sourceTree = "<group>"; };
+		405D5935898A3EDEF68FFF41 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47EB6D61E3E97ADBDD049955 /* SessionCompletionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCompletionSheet.swift; sourceTree = "<group>"; };
+		61883CC89B9B193E678440A6 /* SundayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayApp.swift; sourceTree = "<group>"; };
+		64C2143FB195151CFE455B0A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6FF00F4288666996E217323C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805344B89347169F52254F94 /* Sunday.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Sunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E60B9C44049AD9F2F94B71 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1B42926960F2E68D7EC0BA6 /* SundayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SundayWidget.entitlements; sourceTree = "<group>"; };
+		A750BB55BB23C11EE9380811 /* MigrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationService.swift; sourceTree = "<group>"; };
+		ABA6B1874A911019AE0B20C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B6B8EAE15371B79D847AB450 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		C2B1C0F075706A3D49F781C7 /* SundayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayWidget.swift; sourceTree = "<group>"; };
+		D56EA0097812F2E7F1AE1A2B /* VitaminDCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminDCalculator.swift; sourceTree = "<group>"; };
+		E0639AA6BD39B5AA07843E5B /* SunscreenPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunscreenPicker.swift; sourceTree = "<group>"; };
+		E2611886B0F63CE941D04446 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		E26150440802FFB7DC850F89 /* UVService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVService.swift; sourceTree = "<group>"; };
+		E8D0E33B2B399C8F6D617EE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB5954BFFC29A021FFCE93B0 /* SundayWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SundayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		027F5844077E9EB02F815647 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				76AB81E816C080B0703ABAD0 /* App */,
+				B0678AA5C26F3156ECB5FFB7 /* Extensions */,
+				D2C2659827CF515FCCF21162 /* Models */,
+				FD8A0400015DB6F5853E8914 /* Services */,
+				D18B72C61CFECB24380F9868 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		15A500F69ED84AF3F46C90FF = {
+			isa = PBXGroup;
+			children = (
+				C4C2CBC25B6B719BFD52594B /* Resources */,
+				027F5844077E9EB02F815647 /* Sources */,
+				A13EC395530CEFD97842054C /* SundayWidget */,
+				3C26F0D9EB52A5B5EA4855AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C26F0D9EB52A5B5EA4855AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805344B89347169F52254F94 /* Sunday.app */,
+				FB5954BFFC29A021FFCE93B0 /* SundayWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AB81E816C080B0703ABAD0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61883CC89B9B193E678440A6 /* SundayApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A13EC395530CEFD97842054C /* SundayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6B1874A911019AE0B20C9 /* Info.plist */,
+				A1B42926960F2E68D7EC0BA6 /* SundayWidget.entitlements */,
+				046D8BF70DC496745A1146E8 /* SundayWidget.intentdefinition */,
+				C2B1C0F075706A3D49F781C7 /* SundayWidget.swift */,
+			);
+			path = SundayWidget;
+			sourceTree = "<group>";
+		};
+		B0678AA5C26F3156ECB5FFB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99E60B9C44049AD9F2F94B71 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4C2CBC25B6B719BFD52594B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FF00F4288666996E217323C /* Assets.xcassets */,
+				405D5935898A3EDEF68FFF41 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D18B72C61CFECB24380F9868 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0E33B2B399C8F6D617EE2 /* ContentView.swift */,
+				401B1617CC2E2E7986198739 /* ManualExposureSheet.swift */,
+				47EB6D61E3E97ADBDD049955 /* SessionCompletionSheet.swift */,
+				E0639AA6BD39B5AA07843E5B /* SunscreenPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2C2659827CF515FCCF21162 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6B8EAE15371B79D847AB450 /* DataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD8A0400015DB6F5853E8914 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A673F21A5352A14FE089CBD /* HealthManager.swift */,
+				64C2143FB195151CFE455B0A /* LocationManager.swift */,
+				E2611886B0F63CE941D04446 /* Logging.swift */,
+				A750BB55BB23C11EE9380811 /* MigrationService.swift */,
+				3369925047C54EB9BEC34E87 /* NetworkMonitor.swift */,
+				E26150440802FFB7DC850F89 /* UVService.swift */,
+				D56EA0097812F2E7F1AE1A2B /* VitaminDCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDD77FB1D96F051DE928384 /* Sunday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4019CC533EE65542BD096406 /* Build configuration list for PBXNativeTarget "Sunday" */;
+			buildPhases = (
+				278C534DB13B5D51120FA5E0 /* Sources */,
+				C964D38A9A0B837996070E5D /* Resources */,
+				C889C4D62F75382032E9F8B0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E89ED45EB2AE16F30A9C41 /* PBXTargetDependency */,
+			);
+			name = Sunday;
+			packageProductDependencies = (
+			);
+			productName = Sunday;
+			productReference = 805344B89347169F52254F94 /* Sunday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82E7E54B788F6B974030A345 /* SundayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670BEC5DE6FAD1E3DD391003 /* Build configuration list for PBXNativeTarget "SundayWidget" */;
+			buildPhases = (
+				3357CE89BF03F72F02C6ED77 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SundayWidget;
+			packageProductDependencies = (
+			);
+			productName = SundayWidget;
+			productReference = FB5954BFFC29A021FFCE93B0 /* SundayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2C410BBEA87495BE6FADA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5CDD77FB1D96F051DE928384 = {
+						DevelopmentTeam = L3N5LHJD5Y;
+					};
+					82E7E54B788F6B974030A345 = {
+						DevelopmentTeam = L3N5LHJD5Y;
+					};
+				};
+			};
+			buildConfigurationList = 1B7492D21B8076671D3A7CBC /* Build configuration list for PBXProject "Sunday" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 15A500F69ED84AF3F46C90FF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C26F0D9EB52A5B5EA4855AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDD77FB1D96F051DE928384 /* Sunday */,
+				82E7E54B788F6B974030A345 /* SundayWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C964D38A9A0B837996070E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6214279C6C167F982E3D03C8 /* Assets.xcassets in Resources */,
+				22AD712D5E9927E8FFC126D8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278C534DB13B5D51120FA5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26162674D160AD4100BB0A0 /* ContentView.swift in Sources */,
+				F86D9967FF27FAFE1C5D5F91 /* DataModels.swift in Sources */,
+				53594626A7F108C0D0476A9D /* Extensions.swift in Sources */,
+				27AF620081023D7DFAB5B83F /* HealthManager.swift in Sources */,
+				23B972EC4F33060C19004D56 /* LocationManager.swift in Sources */,
+				2CACC96C6448D3F9808550B4 /* Logging.swift in Sources */,
+				02165B62D17564142BAE367B /* ManualExposureSheet.swift in Sources */,
+				BDC919290C791BF6328D7CFF /* MigrationService.swift in Sources */,
+				0B1DDC8996AFDF9780811715 /* NetworkMonitor.swift in Sources */,
+				268FFB83C38F705B5ACAD94C /* SessionCompletionSheet.swift in Sources */,
+				7F2BF92718B045033BC91F13 /* SundayApp.swift in Sources */,
+				88D8039F5748ED946EFA2817 /* SunscreenPicker.swift in Sources */,
+				3ECF4CB01C7159172BC37257 /* UVService.swift in Sources */,
+				2F2804D4E5AF54E7C042AA16 /* VitaminDCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3357CE89BF03F72F02C6ED77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C7496CF64FB8B7624D676B /* SundayWidget.intentdefinition in Sources */,
+				068877D989F5D3F8CF7F26B9 /* SundayWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31E89ED45EB2AE16F30A9C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82E7E54B788F6B974030A345 /* SundayWidget */;
+			targetProxy = C4193ED8CB3EE96ABC140932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D9B16280007CA701C85F48A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SundayWidget/SundayWidget.entitlements;
+				INFOPLIST_FILE = SundayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.sunday.app.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		43595E4DE1AA5E83873BC8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L3N5LHJD5Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = it.sunday.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5EBBE8E1BF680AC9A4B77C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SundayWidget/SundayWidget.entitlements;
+				INFOPLIST_FILE = SundayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.sunday.app.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		76C1EA9A276487D18EE4420D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resources/Sunday.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_ASSET_PATHS = Sources;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C03D70CEF7155BB794A8D474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resources/Sunday.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_ASSET_PATHS = Sources;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD0049502915E1596B668AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L3N5LHJD5Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = it.sunday.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7492D21B8076671D3A7CBC /* Build configuration list for PBXProject "Sunday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0049502915E1596B668AFD /* Debug */,
+				43595E4DE1AA5E83873BC8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4019CC533EE65542BD096406 /* Build configuration list for PBXNativeTarget "Sunday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03D70CEF7155BB794A8D474 /* Debug */,
+				76C1EA9A276487D18EE4420D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		670BEC5DE6FAD1E3DD391003 /* Build configuration list for PBXNativeTarget "SundayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9B16280007CA701C85F48A /* Debug */,
+				5EBBE8E1BF680AC9A4B77C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2C410BBEA87495BE6FADA4 /* Project object */;
+}
