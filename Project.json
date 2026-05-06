@@ -1,0 +1,118 @@
+{
+  "name": "Sunday",
+  "options": {
+    "bundleIdPrefix": "it.sunday",
+    "deploymentTarget": {
+      "iOS": "17.0"
+    }
+  },
+  "settings": {
+    "base": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "it.sunday.app",
+      "MARKETING_VERSION": "1.1.2",
+      "CURRENT_PROJECT_VERSION": "1",
+      "DEVELOPMENT_TEAM": "L3N5LHJD5Y"
+    }
+  },
+  "targets": {
+    "Sunday": {
+      "type": "application",
+      "platform": "iOS",
+      "deploymentTarget": "17.0",
+      "sources": [
+        {"path": "Sources"}
+      ],
+      "resources": [
+        {"path": "Resources/Assets.xcassets"},
+        {"path": "Resources/LaunchScreen.storyboard"}
+      ],
+      "info": {
+        "path": "Resources/Info.plist",
+        "properties": {
+          "CFBundleDisplayName": "Sun Day",
+          "LSApplicationCategoryType": "public.app-category.healthcare-fitness",
+          "UILaunchStoryboardName": "LaunchScreen",
+          "UISupportedInterfaceOrientations": [
+            "UIInterfaceOrientationPortrait"
+          ],
+          "UIRequiresFullScreen": true,
+          "UIUserInterfaceStyle": "Light",
+          "NSLocationWhenInUseUsageDescription": "Sun Day needs your location to determine UV levels at your current position",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Sun Day needs your location to track UV exposure throughout the day",
+          "NSHealthShareUsageDescription": "Sun Day reads your health data to provide personalized vitamin D recommendations",
+          "NSHealthUpdateUsageDescription": "Sun Day saves your vitamin D intake data to Health app",
+          "NSUserNotificationCenterUsageDescription": "Sun Day sends reminders for sunrise, sunset, and solar noon to help you track vitamin D",
+          "CFBundleURLTypes": [
+            {
+              "CFBundleURLSchemes": ["sunday"],
+              "CFBundleURLName": "com.jack.sunday"
+            }
+          ],
+          "NSAppTransportSecurity": {
+            "NSExceptionDomains": {
+              "api.farmsense.net": {
+                "NSExceptionAllowsInsecureHTTPLoads": true,
+                "NSIncludesSubdomains": false
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "base": {
+          "INFOPLIST_FILE": "Resources/Info.plist",
+          "ENABLE_PREVIEWS": "YES",
+          "DEVELOPMENT_ASSET_PATHS": "Sources",
+          "ASSETCATALOG_COMPILER_APPICON_NAME": "AppIcon",
+          "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
+          "TARGETED_DEVICE_FAMILY": "1",
+          "SUPPORTS_MACCATALYST": false,
+          "SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD": false,
+          "SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD": false
+        }
+      },
+      "entitlements": {
+        "path": "Resources/Sunday.entitlements",
+        "properties": {
+          "com.apple.developer.healthkit": true,
+          "com.apple.developer.healthkit.access": ["health-records"],
+          "com.apple.security.application-groups": ["group.sunday.widget"]
+        }
+      },
+      "dependencies": [
+        {"target": "SundayWidget", "embed": true}
+      ]
+    },
+    "SundayWidget": {
+      "type": "app-extension",
+      "platform": "iOS",
+      "deploymentTarget": "17.0",
+      "sources": [
+        {"path": "SundayWidget"}
+      ],
+      "info": {
+        "path": "SundayWidget/Info.plist",
+        "properties": {
+          "CFBundleDisplayName": "Sun Day Widget",
+          "NSExtension": {
+            "NSExtensionPointIdentifier": "com.apple.widgetkit-extension"
+          }
+        }
+      },
+      "settings": {
+        "base": {
+          "PRODUCT_BUNDLE_IDENTIFIER": "it.sunday.app.widget",
+          "INFOPLIST_FILE": "SundayWidget/Info.plist",
+          "SKIP_INSTALL": "YES",
+          "TARGETED_DEVICE_FAMILY": "1"
+        }
+      },
+      "entitlements": {
+        "path": "SundayWidget/SundayWidget.entitlements",
+        "properties": {
+          "com.apple.security.application-groups": ["group.sunday.widget"]
+        }
+      }
+    }
+  }
+}
