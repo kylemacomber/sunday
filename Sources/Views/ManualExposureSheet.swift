@@ -237,7 +237,7 @@ struct ManualExposureSheet: View {
                                     .minimumScaleFactor(0.7)
                                     .allowsTightening(true)
                                 Text(formattedAmount)
-                                    .font(.system(size: 28, weight: .bold, design: .rounded))
+                                    .font(.system(size: 28, weight: .bold))
                                     .foregroundColor(.white)
                                     .lineLimit(1)
                                     .minimumScaleFactor(0.7)
