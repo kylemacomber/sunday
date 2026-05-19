@@ -47,6 +47,10 @@ struct ManualExposureSheet: View {
         return String(format: "%.0fK IU", calculatedVitaminD / 1000)
     }
 
+    private func color(for error: String) -> Color {
+        error == "Location not available" ? .white.opacity(0.8) : .red
+    }
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -184,7 +188,7 @@ struct ManualExposureSheet: View {
                     if let error = errorMessage {
                         Text(error)
                             .font(.caption)
-                            .foregroundColor(.red)
+                            .foregroundColor(color(for: error))
                             .multilineTextAlignment(.center)
                     }
                     
@@ -237,7 +241,7 @@ struct ManualExposureSheet: View {
                                     .minimumScaleFactor(0.7)
                                     .allowsTightening(true)
                                 Text(formattedAmount)
-                                    .font(.system(size: 28, weight: .bold, design: .rounded))
+                                    .font(.system(size: 28, weight: .bold))
                                     .foregroundColor(.white)
                                     .lineLimit(1)
                                     .minimumScaleFactor(0.7)

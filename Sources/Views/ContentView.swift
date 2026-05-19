@@ -282,7 +282,7 @@ struct ContentView: View {
     private var headerSection: some View {
         Button(action: { showInfoSheet = true }) {
             Text("SUN DAY")
-                .font(.system(size: 40, weight: .bold, design: .rounded))
+                .font(.system(size: 40, weight: .bold))
                 .foregroundColor(.white)
                 .tracking(2)
         }
@@ -296,7 +296,7 @@ struct ContentView: View {
                         .font(.system(size: 40))
                         .foregroundColor(.white.opacity(0.7))
                     Text("LOCATION ACCESS REQUIRED")
-                        .font(.system(size: 12, weight: .bold, design: .rounded))
+                        .font(.system(size: 12, weight: .bold))
                         .foregroundColor(.white.opacity(0.7))
                         .tracking(1.5)
                     Button(action: {
@@ -313,12 +313,12 @@ struct ContentView: View {
                 }
             } else {
                 Text("UV INDEX")
-                    .font(.system(size: 12, weight: .bold, design: .rounded))
+                    .font(.system(size: 12, weight: .bold))
                     .foregroundColor(.white.opacity(0.7))
                     .tracking(1.5)
                 
                 Text(String(format: "%.1f", uvService.currentUV))
-                    .font(.system(size: 72, weight: .bold, design: .rounded))
+                    .font(.system(size: 72, weight: .bold))
                     .foregroundColor(.white)
             }
             

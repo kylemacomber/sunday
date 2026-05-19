@@ -86,7 +86,7 @@ struct SessionCompletionSheet: View {
                                 .foregroundColor(.white.opacity(0.7))
                                 .tracking(1.2)
                             Text(formattedAmount)
-                                .font(.system(size: 36, weight: .bold, design: .rounded))
+                                .font(.system(size: 36, weight: .bold))
                                 .foregroundColor(.white)
                         }
                         
@@ -97,7 +97,7 @@ struct SessionCompletionSheet: View {
                                 .foregroundColor(.white.opacity(0.7))
                                 .tracking(1.2)
                             Text(formattedDuration)
-                                .font(.system(size: 26, weight: .semibold, design: .rounded))
+                                .font(.system(size: 26, weight: .semibold))
                                 .foregroundColor(.white)
                         }
                     }
